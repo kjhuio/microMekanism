@@ -1,0 +1,466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "2EA9F4475DAC814B"
+	id: "5C9AC70225A7029C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E6FB67BE7A902AF"]
+			id: "6CDEA03A60ED42D3"
+			rewards: [
+				{
+					count: 55
+					id: "2997286789450B9A"
+					item: "kubejs:copper_nugget"
+					type: "item"
+				}
+				{
+					count: 55
+					id: "71FA0BB40148E561"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					count: 55
+					id: "18A3C67309FB71B5"
+					item: "mekanism:nugget_osmium"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "4C5E205A4CBED13C"
+					item: { Count: 9, id: "kubejs:copper_nugget" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "30D54AE045F2BCA3"
+					item: { Count: 9, id: "mekanism:nugget_osmium" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1B17744F8EAB5BC9"
+					item: { Count: 9, id: "minecraft:iron_nugget" }
+					type: "item"
+				}
+			]
+			title: "マイクロ素材"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CDEA03A60ED42D3"]
+			id: "5CDAF865958CE848"
+			rewards: [{
+				count: 9
+				id: "4D225E06C098FB5B"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			subtitle: "最初に出たエラーは気にしないでください"
+			tasks: [{
+				id: "7EC87037FB7ACF11"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "レシピ改変で安くなった発電機"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CDAF865958CE848"]
+			id: "74C94EBAA487915A"
+			rewards: [{
+				count: 9
+				id: "4A34C27E0BA78768"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D0A5F724B1FBC4F"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "安価な冶金吹込機"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10DDA3B8A6B6106C"]
+			description: [
+				"&a初心者の方へ&r"
+				"グロウストーン合金・制御回路は本来Mekanismに存在しない要素です"
+			]
+			id: "5C17C93D56B7BE65"
+			rewards: [
+				{
+					id: "271E3ADE8B9A6C8E"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "4CEA056DE28C7B93"
+					item: "mekanism:qio_drive_base"
+					type: "item"
+				}
+				{
+					id: "62CEA12A5FFAD5AF"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+			]
+			subtitle: "溶岩バケツもお安くなっています"
+			tasks: [
+				{
+					id: "7AB35059B1583C28"
+					item: "kubejs:glowstone_control_circuit"
+					type: "item"
+				}
+				{
+					id: "3EE1073E132F6806"
+					item: "kubejs:alloy_glowstone"
+					type: "item"
+				}
+			]
+			title: "グロウストーン一式"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74C94EBAA487915A"]
+			id: "67DBB7636CEC4EDA"
+			rewards: [{
+				id: "2701D41C3C036258"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CE3153094F506D7"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "&a初めての制御回路"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49A11999A9EED158"]
+			id: "10DDA3B8A6B6106C"
+			rewards: [
+				{
+					count: 3
+					id: "0569239C9951F235"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7225CADE600E8132"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C48C5E912300CEE"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			title: "&c発展した制御回路"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67DBB7636CEC4EDA"]
+			id: "49A11999A9EED158"
+			rewards: [
+				{
+					count: 2
+					id: "14D75C738ED2ABE9"
+					item: "mekanism:alloy_infused"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3F9CABE9A51494CD"
+					item: "mekanism:enriched_redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0578E692A17B7A80"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "&c吹込合金"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C17C93D56B7BE65"]
+			description: [
+				"工業Modの世界に於いて最も重要な素材、&l「鋼鉄インゴット」&rを作成しましょう"
+				""
+				""
+				""
+				"..まっ このModpackで使うのは鋼鉄塊なんですけどね!"
+			]
+			id: "549EF8ADCE7CE752"
+			rewards: [{
+				id: "3F75609CD7228EA6"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E951D4E68DD61AA"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			title: "工業の基本:その1"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["549EF8ADCE7CE752"]
+			description: ["鋼鉄インゴットを作り終えたところで重要アイテム、&l「鋼鉄ケーシング」&rを作りましょう"]
+			id: "09DA218CF1DC33F7"
+			rewards: [{
+				id: "024756645C3DA74B"
+				item: "mekanism:steel_casing"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "ここだと非常に安価"
+			tasks: [{
+				id: "10828311886EC9AC"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "工業の基本:その2"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09DA218CF1DC33F7"]
+			id: "630145CC27102C65"
+			rewards: [{
+				count: 8
+				id: "7D07EB487E3BEF73"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			subtitle: "ケーブルは命です"
+			tasks: [{
+				count: 8L
+				id: "28ED3F93BBF21A9D"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "工業の基本:その3-2"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["630145CC27102C65"]
+			icon: "mekanism:advanced_universal_cable"
+			id: "42FE1FEA3E757B90"
+			rewards: [{
+				count: 8
+				id: "5032D395CE4FC82C"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			subtitle: "レベルを上げることは重要なことです"
+			tasks: [{
+				count: 8L
+				id: "17B83DA4D84BDFE6"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			title: "工業の基本:その4-2"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09DA218CF1DC33F7"]
+			id: "5AFCFB94BD75FA91"
+			subtitle: "大抵のModは電気で製錬できます"
+			tasks: [{
+				id: "10C507A662DA6BC6"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			title: "工業の基本:その3-1"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AFCFB94BD75FA91"]
+			id: "38C26081F0F3E399"
+			tasks: [{
+				id: "5A81582D30C4E1DD"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "工業の基本:その4-1"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"38C26081F0F3E399"
+				"42FE1FEA3E757B90"
+			]
+			id: "5ECD847A05B8476D"
+			subtitle: "電力不足を解決する手段の一つ"
+			tasks: [{
+				id: "245EF5B1C61E00EE"
+				item: {
+					Count: 1
+					id: "mekanism:basic_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "0"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "工業の基本:その5"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5ECD847A05B8476D"]
+			description: [
+				"発電量が足りない?"
+				"エチレン発電を作りましょう"
+				"..と言いたいところですがまだ重要なアイテムがありません"
+				"それは&l「Botany Pot」&rですよね(圧)"
+				"ってことで作りましょう"
+			]
+			id: "39EF9F7C8354AB76"
+			rewards: [
+				{
+					count: 32
+					id: "2AC43FCA3796F4FE"
+					item: "minecraft:farmland"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3E8CFAB517AE5474"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			subtitle: "今のうちに作っておきましょう"
+			tasks: [{
+				id: "54EB14F39E24CB34"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			title: "後で重要になるやつ"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"39EF9F7C8354AB76"
+				"72DB74C62919744B"
+			]
+			id: "6310149BE99E8EDC"
+			rewards: [{
+				id: "75C458E7C221DF2C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "粉砕機、省略しちゃって良いっすか?"
+			tasks: [
+				{
+					id: "7AB3244DEF47DF30"
+					item: "mekanism:electrolytic_separator"
+					type: "item"
+				}
+				{
+					id: "4EB85A1E854E2430"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+				{
+					id: "0C7E4AEC74858472"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2FB8A879EA4F8D5B"
+					item: { Count: 8, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6D0EA8DD2DE27167"
+					item: { Count: 8, id: "mekanism:basic_mechanical_pipe" }
+					type: "item"
+				}
+				{
+					id: "48AB64C818BDC133"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+			]
+			title: "エチレン発電まであと一歩!"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6310149BE99E8EDC"]
+			id: "700ABB6B7244FA72"
+			shape: "gear"
+			size: 4.0d
+			subtitle: "序盤の終わり"
+			tasks: [{
+				id: "5E19A3653037081A"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			title: "エチレン発電開始!"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5ECD847A05B8476D"]
+			id: "72DB74C62919744B"
+			tasks: [{
+				id: "3976178766EF16E5"
+				item: {
+					Count: 1
+					id: "mekanism:configurator"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "0"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+	title: "チャプター1"
+}

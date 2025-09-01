@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1_2"
+	group: "6FD572EC6C8F44D2"
+	id: "7D299CCBF89FF179"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4A7EB096D1F290D9"
+			tasks: [{
+				id: "3F515C10C0753076"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "1D157D17EFE84465"
+			tasks: [{
+				id: "6E29B27F78335482"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "158F41A6006A9364"
+			tasks: [{
+				id: "4C1EFD45970BB510"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "539CFFAC4C1A7BA3"
+			tasks: [{
+				id: "383A6E4882C9EA58"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	title: "サブチャプター1"
+}

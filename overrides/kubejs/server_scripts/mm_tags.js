@@ -1,0 +1,1 @@
+ServerEvents.tags('item',event =>{event.add('mekanism:alloys/glowstone','kubejs:alloy_glowstone');event.add('mekanism:enriched/glowstone','micromekanism:enriched_glowstone');event.add('mekanism:enriched/iron','mekanism:enriched_iron')})

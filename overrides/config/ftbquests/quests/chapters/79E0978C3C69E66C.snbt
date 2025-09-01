@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "79E0978C3C69E66C"
+	group: ""
+	id: "79E0978C3C69E66C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "kubejs:micro_mekanism_logo"
+			id: "1E6FB67BE7A902AF"
+			rewards: [{
+				id: "4187455FF6470FDF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			size: 8.0d
+			tasks: [{
+				id: "00F85AAB0FAADCE5"
+				title: "μMekanismへようこそ!"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1E6FB67BE7A902AF"]
+			description: [
+				"このModpackではFTB Chunksが導入されています"
+				"このModpackをマルチプレイで使用してもアイテムを盗まれることはありません!"
+			]
+			icon: "minecraft:map"
+			id: "2B0F8943D11C6EE4"
+			tasks: [{
+				id: "401A51E2ED8B38E6"
+				title: "FTB Chunk"
+				type: "checkmark"
+			}]
+			title: "FTB Chunks"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E6FB67BE7A902AF"]
+			description: [
+				"このModpackではFTB Teamsが導入されています。"
+				"フレンドと遊ぶ時も安心です!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "002538B46B1A46D2"
+			tasks: [{
+				id: "3365D5E67E20AB20"
+				title: "FTB Teams"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+	]
+	title: "ようこそ!"
+}
